@@ -3,13 +3,14 @@
 p{
     Color: rgb(46, 182, 143) ;
 }
-h1, h2, h3 {
-    font-family: sans-serif;
+h1, h2, h3,h4,h5,h6, p {
+    font-family: Cursive ;
 }
 
 /* Select by CLASS name */
 .border {
     border: 2px solid black;
+    
 }
 
 /* select by ID name (unique) */
@@ -22,4 +23,17 @@ li{
 }
 ol{
     color: aqua
+}
+
+/* Properties: colors and typography*/
+    
+strong{
+    color:crimson;
+    background-color:rgba(238, 238, 245, 0.012);
+    font-weight:900;
+    font-style:impact
+}
+
+h1{
+    text-align:center
 }
