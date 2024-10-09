@@ -21,7 +21,7 @@ h1, h2, h3,h4,h5,h6, p {
 /* Select by CLASS name */
 .border {
     border: 2px solid black;
-    
+    border-radius:20px
 }
 
 /* select by ID name (unique) */
@@ -47,4 +47,17 @@ strong{
 
 h1{
     text-align:center
+}
+/*Box model: margin, border, padding, content*/
+a{
+    border-width:2px;
+    border-style:none;
+    border-color:purple;
+    border-radius:2opx
+
+}
+hr{
+    border: width 5px;
+    border-style:solid;
+    border-color:red;
 }
