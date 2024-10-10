@@ -15,13 +15,15 @@ p{
 }
 h1, h2, h3,h4,h5,h6, p {
     font-family: "Oswald", sans-serif;
+   
     
 }
 
 /* Select by CLASS name */
 .border {
     border: 2px solid black;
-    border-radius:20px
+    border-radius:20px;
+    margin:
 }
 
 /* select by ID name (unique) */
@@ -60,4 +62,13 @@ hr{
     border: width 5px;
     border-style:solid;
     border-color:red;
+}
+h1{
+    margin:5%;
+    padding:5px;
+}
+/* Tip: easy way to center anything!*/
+.centered-container{
+    margin: auto;
+    text-align: center;
 }
